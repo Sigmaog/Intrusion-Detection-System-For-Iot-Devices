@@ -41,17 +41,10 @@ It aims to strengthen IoT device security by automatically learning attack patte
 
 ---
 
-## ⚙️ Installation & Setup  
-
-### 1️⃣ Clone the Repository  
-```bash
-git clone https://github.com/Sigmaog/Intrusion-Detection-System-IoT.git
-cd Intrusion-Detection-System-IoT
 ---
 
-## 📦 Requirements
+## 🤝 Let's Connect
+📧 **Email:** aniquee.ai@gmail.com  
+🌍 **GitHub:** [github.com/Sigmaog](https://github.com/Sigmaog)
 
-Install dependencies using pip:
-
-```bash
-pip install pandas scikit-learn xgboost imbalanced-learn joblib matplotlib seaborn numpy
+---
