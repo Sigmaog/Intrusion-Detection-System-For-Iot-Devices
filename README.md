@@ -6,33 +6,50 @@
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
----
-
-## 📘 Overview  
-
-This repository contains a **Machine Learning-based Intrusion Detection System (IDS)** designed for **IoT networks**.  
-The system identifies malicious or abnormal activities in IoT traffic data using advanced ML models such as **XGBoost**.  
-
-It aims to strengthen IoT device security by automatically learning attack patterns from network datasets and detecting potential threats efficiently.  
+  
+This project implements a Machine Learning-based Intrusion Detection System (IDS) for IoT environments.  
+It uses the XGBoost algorithm to detect various types of cyber-attacks with high accuracy.
 
 ---
 
-## 🧠 Key Features  
+## Features
 
-✅ Data Preprocessing & Feature Encoding  
-✅ Balanced Training using **SMOTE / RandomOverSampler**  
-✅ Multi-class Classification (Normal, PortScan, BruteForce, etc.)  
-✅ Model Training & Evaluation using **XGBoost**  
-✅ Visual Results – Confusion Matrix & Feature Importance  
-✅ Saved Model Artifacts for Deployment  
+- Automated data preprocessing  
+- Class balancing using RandomOverSampler  
+- High accuracy XGBoost model  
+- Model saving and loading with joblib  
+- Performance evaluation and visualization  
 
 ---
 
-## 📂 Repository Structure  
+## Dataset Overview
+
+| Attribute | Details |
+|------------|----------|
+| **Records** | 1,048,575 samples |
+| **Features** | 21 (20 input + 1 target) |
+| **Classes** | 34 (attack + benign) |
+| **Target Column** | label |
+| **Accuracy** | 99.33% |
+
+---
+
+## Model Performance
+
+| Metric | Score |
+|---------|--------|
+| **Accuracy** | 0.9933 |
+| **Precision (avg)** | 0.99 |
+| **Recall (avg)** | 0.99 |
+| **F1-Score (macro)** | 0.81 |
+
+---
+
+## Repository Structure
 
 | File Name | Description |
 |------------|-------------|
-| `Intrusion IDS.ipynb` | Main Jupyter notebook containing the full ML pipeline |
+| `IDS_Training.ipynb` | Main Jupyter notebook containing the full ML pipeline |
 | `xgb_ids_20250921.pkl` | Trained XGBoost model |
 | `label_encoder_20250921.pkl` | Label encoder for target labels |
 | `feature_encoders_20250921.pkl` | Encoders for categorical features |
@@ -41,9 +58,21 @@ It aims to strengthen IoT device security by automatically learning attack patte
 
 ---
 
+## Tech Stack
+
+- Python 3  
+- pandas  
+- numpy  
+- scikit-learn  
+- imbalanced-learn  
+- xgboost  
+- matplotlib  
+- seaborn  
+
 ---
 
 ## 🤝 Let's Connect
+🖊️**Author** Muhammad Anique 
 📧 **Email:** aniquee.ai@gmail.com  
 🌍 **GitHub:** [github.com/Sigmaog](https://github.com/Sigmaog)
 
