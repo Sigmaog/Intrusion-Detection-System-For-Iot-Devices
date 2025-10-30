@@ -72,7 +72,7 @@ It uses the XGBoost algorithm to detect various types of cyber-attacks with high
 ---
 
 ## 🤝 Let's Connect
- ### 🖊️Author: Muhammad Anique 
+ #### 🖊️Author: Muhammad Anique 
 📧 **Email:** aniquee.ai@gmail.com  
 🌍 **GitHub:** [github.com/Sigmaog](https://github.com/Sigmaog)
 
